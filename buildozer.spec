@@ -1,11 +1,9 @@
 [app]
-
-title = WhatsappRecovery
-package.name = whatsapp_recovery
-package.domain = org.recuperawhatsapp
-source.include_exts = py,json
+title = MeuApp
+package.name = meuapp
+package.domain = org.exemplo
+source.dir = .
+source.include_exts = py,png,jpg,kv,atlas
 version = 0.1
-requirements = python3,kivy,google-auth,google-auth-oauthlib,google-api-python-client
+requirements = python3,kivy
 orientation = portrait
-fullscreen = 1
-android.permissions = INTERNET
